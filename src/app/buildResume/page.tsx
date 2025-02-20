@@ -19,8 +19,8 @@ const page = () => {
         <motion.button
           whileTap={{ scale: 0.9 }}>
         <Button size={"lg"} className="text-lg" asChild>
-          <Link href={"/templates"}>
-            Choose Template
+          <Link href={"/templatePage"}>
+            Choose a Template
             <FolderSearchIcon />
           </Link>
         </Button>
@@ -31,7 +31,7 @@ const page = () => {
           whileTap={{ scale: 0.9 }}
         >
           <Button size={"lg"} className="text-lg" asChild>
-          <Link href={"/existingResume"}>
+          <Link href={"/existing"}>
             Change Existing Resume
             <Upload />
           </Link>
